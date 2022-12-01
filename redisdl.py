@@ -121,6 +121,7 @@ def client(host='localhost', port=6379, password=None, db=0,
                         port=port,
                         password=password,
                         db=db,
+                        ssl=True,
                         charset=encoding)
     return r
 
